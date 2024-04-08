@@ -1,9 +1,3 @@
-#### Links:
-- https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2024/06-streaming
-- https://courses.datatalks.club/de-zoomcamp-2024/homework/hw6
-- https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2024/06-streaming/homework.md
-
-
 ### Question 1: Redpanda version
 What's the version, based on the output of the command you executed? (copy the entire version)
 **v22.3.5 (rev 28b2443)**
@@ -78,7 +72,7 @@ Row(key=None, value=bytearray(b'{"lpep_pickup_datetime": "2019-10-01 00:26:02", 
 Now let's stop the query, so it doesn't keep consuming messages from the stream
 
 query.stop()
-###Question 6. Parsing the data
+Question 6. Parsing the data
 The data is JSON, but currently it's in binary format. We need to parse it and turn it into a streaming dataframe with proper columns
 
 Similarly to PySpark, we define the schema
